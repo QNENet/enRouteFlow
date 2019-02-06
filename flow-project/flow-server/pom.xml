@@ -10,7 +10,7 @@
     </parent>
     
     <groupId>com.vaadin.qne</groupId>
-    <artifactId>flow-server</artifactId>
+    <artifactId>flow-server-qne</artifactId>
     <name>Flow Server</name>
     <packaging>jar</packaging>
 
@@ -178,18 +178,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven.surefire.plugin.version}</version>
-                <configuration>
-                    <excludedGroups>${test.excludegroup}</excludedGroups>
-                    <enableAssertions>true</enableAssertions>
-                    <classpathDependencyExcludes>
-                        <classpathDependencyExclude>org.osgi:org.osgi.core</classpathDependencyExclude>
-                    </classpathDependencyExcludes>
-                </configuration>
             </plugin>
 
         </plugins>

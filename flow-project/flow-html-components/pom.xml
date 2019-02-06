@@ -9,7 +9,7 @@
     
 
     <groupId>com.vaadin.qne</groupId>
-    <artifactId>flow-html-components</artifactId>
+    <artifactId>flow-html-components-qne</artifactId>
 
     <description>The flow-html-components DS component - built using OSGi enRoute R7</description>
 
@@ -26,7 +26,7 @@
         </dependency>
         <dependency>
         	<groupId>com.vaadin.qne</groupId>
-        	<artifactId>flow-server</artifactId>
+        	<artifactId>flow-server-qne</artifactId>
         	<version>1.4-SNAPSHOT</version>
         </dependency>
     </dependencies>

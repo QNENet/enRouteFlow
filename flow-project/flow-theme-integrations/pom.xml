@@ -30,7 +30,7 @@
         </dependency>
         <dependency>
         	<groupId>com.vaadin.qne</groupId>
-        	<artifactId>flow-server</artifactId>
+        	<artifactId>flow-server-qne</artifactId>
         	<version>1.4-SNAPSHOT</version>
         </dependency>
     </dependencies>

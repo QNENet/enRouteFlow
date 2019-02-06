@@ -244,10 +244,11 @@ Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
 	</build>
 
 	<modules>
-		<module>flow-server</module>
+		
 		<module>flow-data</module>
 		<module>flow-html-components</module>
 		<module>flow-osgi</module>
     <module>flow-theme-integrations</module>
-  </modules>
+    <module>flow-server</module>
+	</modules>
 </project>
