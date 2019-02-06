@@ -7,9 +7,8 @@
     <version>1.4-SNAPSHOT</version>
   </parent>
 
-    <groupId>com.vaadin</groupId>
+    <groupId>com.vaadin.qne</groupId>
     <artifactId>flow-osgi</artifactId>
-    <version>1.4-SNAPSHOT</version>
 
     <description>The flow-osgi DS component - built using OSGi enRoute R7</description>
 

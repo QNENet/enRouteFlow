@@ -7,9 +7,8 @@
     <version>1.4-SNAPSHOT</version>
   </parent>
 
-    <groupId>com.vaadin</groupId>
+    <groupId>com.vaadin.qne</groupId>
     <artifactId>flow-html-components</artifactId>
-    <version>1.4-SNAPSHOT</version>
 
     <description>The flow-html-components DS component - built using OSGi enRoute R7</description>
 
@@ -24,7 +23,12 @@
             <artifactId>test-bundles</artifactId>
             <type>pom</type>
         </dependency>
-     </dependencies>
+        <dependency>
+        	<groupId>com.vaadin</groupId>
+        	<artifactId>flow-server</artifactId>
+        	<version>1.4-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>

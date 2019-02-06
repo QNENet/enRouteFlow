@@ -7,9 +7,8 @@
     <version>1.4-SNAPSHOT</version>
   </parent>
 
-    <groupId>com.vaadin</groupId>
+    <groupId>com.vaadin.qne</groupId>
     <artifactId>flow-theme-integrations</artifactId>
-    <version>1.4-SNAPSHOT</version>
 
     <description>The flow-theme-integrations DS component - built using OSGi enRoute R7</description>
 
@@ -27,7 +26,7 @@
         <dependency>
         	<groupId>com.vaadin</groupId>
         	<artifactId>flow-server</artifactId>
-        	<version>1.2.4</version>
+        	<version>1.4-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
