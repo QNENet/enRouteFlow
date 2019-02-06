@@ -250,5 +250,7 @@ Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
 		<module>flow-osgi</module>
     <module>flow-theme-integrations</module>
     <module>flow-server</module>
-	</modules>
+    <module>flow-frontend-qne</module>
+    <module>flowOSGiBasicStarter</module>
+  </modules>
 </project>
