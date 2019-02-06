@@ -8,7 +8,7 @@
   </parent>
 
     <groupId>com.vaadin.qne</groupId>
-    <artifactId>flow-theme-integrations</artifactId>
+    <artifactId>flow-theme-integrations-qne</artifactId>
 
     <description>The flow-theme-integrations DS component - built using OSGi enRoute R7</description>
 
